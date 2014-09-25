@@ -4,8 +4,7 @@
   "description": "Angelica Delboni's Website!",
   "private": true,
   "scripts": {
-    "test": "grunt lint",
-    "install": "bower install"
+    "test": "grunt lint"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
