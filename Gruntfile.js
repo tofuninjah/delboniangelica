@@ -104,7 +104,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.registerTask('heroku:production', 'clean mincss uglify');
+  grunt.registerTask('heroku:production', 'stylesheets scripts build');
  
   // define the tasks
   grunt.registerTask(
