@@ -1,7 +1,4 @@
 .DS_Store
 /vendor
 /node_modules/
-bower.json
-composer.json
-package.json
-/src/
+/bower_components/
