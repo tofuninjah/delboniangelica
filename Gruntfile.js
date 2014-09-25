@@ -2,7 +2,7 @@ module.exports = function(grunt) {
  
   // configure the tasks
   grunt.initConfig({
- 
+  
     copy: {
       build: {
         cwd: 'src',
@@ -104,7 +104,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-heroku-deploy');
  
   // define the tasks
   grunt.registerTask(
