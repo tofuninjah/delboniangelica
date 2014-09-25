@@ -10,7 +10,6 @@
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
         <link rel="stylesheet" href="styles/app.css">
     </head>
-    
    <body>
   <script src="/main.js"></script>
 </body>
