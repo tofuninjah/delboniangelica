@@ -59,17 +59,18 @@
                   <ul class="slides">
                     <li>
                     	<img src="images/slider/1.jpg" alt="" class="slide_bg" />
-                        <div class="full_slider_caption">
+                        <!--<div class="full_slider_caption">
                         	Top notch multipurpose
                             <div class="slide_title">Onepage portfolio Template</div>
-                        </div>
+                        </div>-->
                     </li>
                     <li>
+                        
                     	<img src="images/slider/2.jpg" alt="" class="slide_bg" />
-                        <div class="full_slider_caption">
+                        <!--<<div class="full_slider_caption">
                         	Suspendisse in justo
                             <div class="slide_title">Integer euismod lacus</div>
-                        </div>
+                        </div>-->
                     </li>
                     <li>
                     	<img src="images/slider/3.jpg" alt="" class="slide_bg" />
