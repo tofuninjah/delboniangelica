@@ -86,20 +86,21 @@
             <div class="container">
             	<!--promo text-->
                 <div class="promo_text_block">
-                	<h1>Brazilian model</h1>
-                    text here...
+                	<h1>Vivacious personality</h1>
+                    <p>Intelligent. Great communication skills.
+                    </p>
                 </div>
                 <!--//promo text-->
-            
         </section>       
-
+    
         <!-- about content-->
         <section class="page_section" id="about">
             <!-- section header -->
             <header>
                 <div class="container">
                     <h1><b>About</b> <b class="color">Angelica</b> Delboni</h1>
-                    <!--<p>Subtext for about me section</p>-->
+                    <p>I have the gift of making people feel comfortable and very 
+                        dependable of myself.  Works as a model for more than six years in Brazil, and feel very proud of all the works that I have carried out. I expect to be able to continue my international career.</p>
                 </div><!-- end .container -->
             </header>
             <!-- //section header -->
@@ -111,10 +112,9 @@
                 	<div class="col-md-4"><div class="marg_b"><img src="images/about1.jpg" alt="" /></div></div>
                     <div class="col-md-8">
                     	<blockquote>
-                        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec sagittis nulla. Aenean consequat aliquet malesuada cras ut lacinia augue. Praesent in viverra erat, sit amet facilisis lacus. Sed congue augue molestie tincidunt porta. Integer pretiumt eget  gravida sem sit amet placerat. Nulla dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci. Nullam auctor risus nunc, sed gravida mi dapibus mollis phasellus eu sed.</p>
-                            <p><a href="javascript:void(0);">Anna Smith, Company inc.</a></p>
+                        	I am of Brazillian descent, and I love my family and friends! I love to laugh, and yes, I am a model but I aslo thoroughly enjoy a good meal. 
+                            I love my job, and I take it very seriously. If you would like to shoot together, please reach out to me! I love to meet new people and exchange inspirations.
                         </blockquote>
-                    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec sagittis nulla. Aenean consequat aliquet malesuada cras ut lacinia augue. Praesent in viverra erat, sit amet facilisis lacus. Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat. Nulla dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus. Mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium mauris eleifend sed. Nunc in sollicitudin felis. Cras nec nisl nisl. Etiam sapien.</p>
                     </div>                
                 </div>
                 <div class="divider"></div>

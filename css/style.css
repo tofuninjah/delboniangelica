@@ -709,10 +709,10 @@ blockquote p a:hover {color:#cccccc !important;
 	border:none;
 }	
 
-#models {/*position: relative;*/
+#work {/*position: relative;*/
 }
-#models header{
-	background-image:url(../images/slide_bg/slide2_bg.jpg);
+#work header{
+	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center center;
 	background-attachment:fixed;
 	background-size:cover;
@@ -722,7 +722,7 @@ blockquote p a:hover {color:#cccccc !important;
 #portfolio {/*position: relative;*/
 }
 #portfolio header{
-	background-image:url(../images/slide_bg/slide3_bg.jpg);
+	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center center;
 	background-attachment:fixed;
 	background-size:cover;
@@ -864,7 +864,7 @@ blockquote p a:hover {color:#cccccc !important;
 #blog {/*position: relative;*/
 }
 #blog header{
-	background-image:url(../images/slide_bg/slide4_bg.jpg);
+	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center top;
 	background-attachment:fixed;
 	background-size:cover;
@@ -1138,7 +1138,7 @@ blockquote p a:hover {color:#cccccc !important;
 #contact {/*position: relative;*/
 }
 #contact header{
-	background-image:url(../images/slide_bg/slide5_bg.jpg);
+	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center top;
 	background-attachment:fixed;
 	background-size:cover;
@@ -1308,7 +1308,7 @@ input.send_btn:hover {
 	width: 100%;
 	padding:45px 0 38px 0;	
 	overflow:hidden;
-	background-image:url(../images/slide_bg/slide6_bg.jpg);
+	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center center;
 	background-attachment:fixed;
 	background-size:cover;
