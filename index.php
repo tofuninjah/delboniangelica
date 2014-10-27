@@ -97,7 +97,7 @@
         <section class="page_section" id="about">
             <!-- section header -->
             <header>
-                <div class="container">
+                <div class="container"> 
                     <h1><b>About</b> <b class="color">Angelica</b> Delboni</h1>
                     <p>I have the gift of making people feel comfortable and very 
                         dependable of myself.  Works as a model for more than six years in Brazil, and feel very proud of all the works that I have carried out. I expect to be able to continue my international career.</p>
