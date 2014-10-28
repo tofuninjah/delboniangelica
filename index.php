@@ -74,10 +74,11 @@
                     </li>
                     <li>
                     	<img src="images/slider/3.jpg" alt="" class="slide_bg" />
-                        <div class="full_slider_caption">
+                        <!--<div class="full_slider_caption">
                         	Integer euismod lacus
                             <div class="slide_title">Suspendisse in justo</div>
                         </div>
+                        -->
                     </li>                        
                   </ul>
                 </div>
