@@ -134,7 +134,7 @@
             <header>
                 <div class="container">
                     <h1><b>Work</b></h1>
-                    <p>Discover elegant solution for your online portfolio!</p>
+                    <!--<p>Work sub-text</p>-->
 
 
                 </div><!-- end .container -->
@@ -216,7 +216,7 @@
             <header>
                 <div class="container">
                     <h1><b>Portfolio</b></h1>
-                    <p>Discover elegant solution for your online portfolio!</p>
+                    <!--<p>Portfolio sub-text</p>-->
                 </div><!-- end .container -->
             </header>
             <!-- //section header -->            
@@ -229,9 +229,9 @@
                             <li>
                                 <ul data-option-key="filter" class="optionset">
                                     <li class="selected"><a data-option-value="*" href="#filter">All works</a></li>
-                                    <li><a title="View all post filed under Portraits" data-option-value=".portraits" href="#filter">Body Shots</a></li>
-                                    <li><a title="View all post filed under Fashion" data-option-value=".fashion" href="#filter">Head Shots</a></li>
-                                    <li><a title="View all post filed under Style" data-option-value=".style" href="#filter">Training and Workshops</a></li>
+                                    <li><a title="View all post filed under Portraits" data-option-value=".body" href="#filter">Body Shots</a></li>
+                                    <li><a title="View all post filed under Fashion" data-option-value=".head" href="#filter">Head Shots</a></li>
+                                    <li><a title="View all post filed under Style" data-option-value=".training" href="#filter">Training and Workshops</a></li>
                                     <!--<li><a title="View all post filed under Advertising" data-option-value=".advertising" href="#filter">Advertising</a></li>-->
                                 </ul>
                             </li>
@@ -239,9 +239,10 @@
                     </div><!-- .filter_navigation -->
                 </div><!-- .filter_block -->
                 
+                <!-- 3 Category classes: body, head, and trainin -->
                 <div class="portfolio_block image-grid columns4" id="list">   
                                                              
-                    <div data-category="portraits" class="portraits fashion element">
+                    <div data-category="head" class="head element">
                     	<div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/1.jpg" alt="" />
@@ -250,165 +251,68 @@
                         </div>
                     </div><!-- .element --> 
                     
-                    <div data-category="fashion" class="fashion portraits element">
-                    	<div class="filter_img">
+ 
+                    <div data-category="body" class="body element">
+                        <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/2.jpg" alt="" />
                                 <a href="single_portfolio.php" class="zoom">Zoom</a>
                             </div> 
                         </div>
-                    </div><!-- .element -->
-
-                    <div data-category="style" class="style element">
+                    </div><!-- .element -->                        
+                    
+                    <div data-category="head" class="head element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/3.jpg" alt="" />
                                 <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                        
-                    </div><!-- .element -->                                                    
+                            </div> 
+                        </div>
+                    </div><!-- .element -->       
 
-                    <div data-category="advertising" class="advertising element">
+                    <div data-category="body" class="body element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/4.jpg" alt="" />
                                 <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                         
-                    </div><!-- .element -->
-                    
-                    <div data-category="portraits" class="portraits fashion style element">
+                            </div> 
+                        </div>
+                    </div><!-- .element -->   
+
+                    <div data-category="training" class="training element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/5.jpg" alt="" />
                                 <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
+                            </div> 
                         </div>
-                    </div><!-- .element --> 
-                    
-                    <div data-category="fashion" class="fashion advertising element">
+                    </div><!-- .element -->   
+
+                    <div data-category="head" class="head element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/6.jpg" alt="" />
                                 <a href="single_portfolio.php" class="zoom">Zoom</a>
                             </div> 
                         </div>
-                    </div><!-- .element -->
+                    </div><!-- .element -->   
 
-                    <div data-category="style" class="style portraits element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/10.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                        
-                    </div><!-- .element -->                                                    
-
-                    <div data-category="advertising" class="advertising style element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/8.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                         
-                    </div><!-- .element -->
-                    
-                    <div data-category="portraits" class="portraits advertising element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/12.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>
-                    </div><!-- .element --> 
-                    
-                    <div data-category="fashion" class="fashion style element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/9.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div> 
-                        </div>
-                    </div><!-- .element -->
-
-                    <div data-category="style" class="style advertising element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/11.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                        
-                    </div><!-- .element -->                                                    
-
-                    <div data-category="advertising" class="advertising portraits element">
+                    <div data-category="head" class="head element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/7.jpg" alt="" />
                                 <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                         
-                    </div><!-- .element -->
-                    
-                    <div data-category="portraits" class="portraits element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/18.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>
-                    </div><!-- .element --> 
-                    
-                    <div data-category="fashion" class="fashion element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/15.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
                             </div> 
                         </div>
-                    </div><!-- .element -->
-
-                    <div data-category="style" class="style element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/16.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                        
-                    </div><!-- .element -->                                                    
-
-                    <div data-category="advertising" class="advertising element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/14.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>                                                         
-                    </div><!-- .element -->
-                    
-                    <div data-category="portraits" class="portraits element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/17.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div>
-                        </div>
-                    </div><!-- .element --> 
-                    
-                    <div data-category="fashion" class="fashion element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/13.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div> 
-                        </div>
-                    </div><!-- .element -->                        
+                    </div><!-- .element -->   
+              
                     
                 </div><!-- .portfolio_block -->
                 <div class="clear"></div> 
                            
             	<!-- //Portfolio -->
             	<div class="clear"></div>
-                <a href="#blog" class="next_section"></a>
+                <a href="#contact" class="next_section"></a>
             </div>
 			<!-- //section content -->            
         </section>
