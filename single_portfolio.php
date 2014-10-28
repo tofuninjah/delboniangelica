@@ -29,7 +29,7 @@
             <header>                                    
                 <!-- logo -->
                 <div id="logo">
-                    <a href="index.php#top"><img src="images/logo.png" width="167" height="34" alt="" /></a>
+                    <a href="index.php#top"><img src="images/logo.png" width="229" height="34" alt="" /></a>
                 </div>
                 <!-- menu -->
                 <nav class="navmenu">
