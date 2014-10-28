@@ -146,7 +146,22 @@
                 <a href="javascript:void(0);">
                     <span class="service_icon">*</span>
                     <span class="service_title">Print Jobs</span>
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                    <ul>
+                        <li>L&amp;M Web</li>
+                        <li>Absorber Web</li>
+                        <li>Kideo-Catalogo</li>
+                        <li>Bikini Team International</li>
+                        <li>Pillow Jasmine</li>
+                        <li>Eikal</li>
+                        <li>Ashley Furniture</li>
+                        <li>Web Girl</li>
+                        <li>Sminoff</li>
+                        <li>Jeanne Pierre</li>
+                        <li>Keurig</li>
+                        <li>Bally's</li>
+                        <li>Ducati</li>
+                        <li>Super Challenge</li>
+                    </ul>
                 </a>
             </div>
         </div>
@@ -155,7 +170,16 @@
                 <a href="javascript:void(0);">
                     <span class="service_icon">*</span>
                     <span class="service_title">Commercials/Videos</span>
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                    <li>Sprint</li>
+                    <li>Pfizer</li>
+                    <li>Andes</li>
+                    <li>Camaro</li>
+                    <li>Bon Ton</li>
+                    <li>Siemens, Inc</li>
+                    <li>Bally's Fitness</li>
+                    <li>Chernin Shoes</li>
+                    <li>Tressemme</li>
+                    <li>Sushi Samba</li> 
                 </a>
             </div>
         </div>
@@ -164,7 +188,11 @@
                 <a href="javascript:void(0);">
                     <span class="service_icon">*</span>
                     <span class="service_title">TV Segments</span>
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                    <li>Television Discovery ABC</li>
+                    <li>Luciana Gimenez (Brazil)</li>
+                    <li>A Casa e Sua (Brazil)</li>
+                    <li>O programa do LeBo (Brazil)</li>
+                    <li>Hebe Camargo (Brazil)</li>
                 </a>
             </div>
         </div>
@@ -173,7 +201,7 @@
                 <a href="javascript:void(0);">
                     <span class="service_icon">*</span>
                     <span class="service_title">Music Video</span>
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                    <li>Diana Reys - Music Video</li>
                 </a>
             </div>
         </div>
