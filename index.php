@@ -57,6 +57,7 @@
             <div class="full_slider">
                 <div id="fullwidth_slider" class="flexslider">
                   <ul class="slides">
+
                     <li>
                     	<img src="images/slider/1.jpg" alt="" class="slide_bg" />
                         <!--<div class="full_slider_caption">
@@ -64,22 +65,9 @@
                             <div class="slide_title">Onepage portfolio Template</div>
                         </div>-->
                     </li>
-                    <li>
-                        
-                    	<img src="images/slider/2.jpg" alt="" class="slide_bg" />
-                        <!--<<div class="full_slider_caption">
-                        	Suspendisse in justo
-                            <div class="slide_title">Integer euismod lacus</div>
-                        </div>-->
-                    </li>
-                    <li>
-                    	<img src="images/slider/3.jpg" alt="" class="slide_bg" />
-                        <!--<div class="full_slider_caption">
-                        	Integer euismod lacus
-                            <div class="slide_title">Suspendisse in justo</div>
-                        </div>
-                        -->
-                    </li>                        
+
+                    <!--// Add more slides here -->
+                    
                   </ul>
                 </div>
              </div>          
