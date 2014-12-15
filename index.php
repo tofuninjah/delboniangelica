@@ -67,7 +67,7 @@
                     </li>
 
                     <!--// Add more slides here -->
-                    
+
                   </ul>
                 </div>
              </div>          
@@ -320,7 +320,7 @@
             <!-- section content -->
             <div class="contact_form content_section container">
                 <div class="row">
-					<div class="col-md-8">
+					<div class="col-md-12">
                     	<div id="note"></div>
                         <div id="fields"> 
                             <form id="ajax-contact-form" action="#">                                
@@ -333,6 +333,7 @@
                             </form> 
                         </div>
                     </div>
+                    <!--//
                 	<div class="col-md-4 contact_info">
                     	<p class="i1">5512 Lorem Ipsum Vestibulum 666/13</p>
                         <p class="i2">+1 800 789 50 12, +1 800 450 6935, +1 800 666 13 13</p>
@@ -344,21 +345,17 @@
                         <p class="i8"><a href="javascript:void(0);">Dribbble</a></p>
                         <p class="i9"><a href="javascript:void(0);">YouTube</a></p>                    
                 	</div>
+                    -->
                 </div>                
             </div>
-            <!--map_section-->
-            <div id="map_section">
-            	<iframe height="415" src="https://maps.google.com.ua/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Chicago,+IL,+United+States&amp;aq=1&amp;oq=new&amp;sll=40.710573,-74.032745&amp;sspn=0.109693,0.222988&amp;ie=UTF8&amp;hq=&amp;hnear=Chicago,+United+States&amp;t=p&amp;ll=41.8337329,-87.7321555&amp;spn=0.026999,0.142651&amp;z=14&amp;iwloc=near&amp;output=embed"></iframe>
-                           
-            </div>
-            <!--//map_section-->
-            
+
             
         <!--footer-->
         <div class="footer">
         	<!-- footer_bottom -->
         	<div class="footer_bottom container">
-            	<div class="socials">
+            	<!--//
+                <div class="socials">
                     <ul class="socials_list">
                         <li><a href="javascript:void(0);" class="ico_social-facebook"></a></li>
                         <li><a href="javascript:void(0);" class="ico_social-twitter"></a></li>
@@ -372,8 +369,9 @@
                         <li><a href="javascript:void(0);" class="ico_social-instagram"></a></li>
                         <li><a href="javascript:void(0);" class="ico_social-gplus"></a></li>
                         <li><a href="javascript:void(0);" class="ico_social-dribbble"></a></li>
-                    </ul>            
-                </div>                
+                    </ul>         
+                </div>
+                -->                
                 <div class="copyright">&copy; 2014 Angelica Delboni</div>
             </div>
         	<!-- //footer_bottom -->
