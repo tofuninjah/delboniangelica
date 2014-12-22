@@ -21,7 +21,7 @@
     <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/sorting.js"></script>
+    <script type="text/javascript" src="js/sorting.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script> 
     <script type="text/javascript" src="js/current.js"></script>
     <script type="text/javascript" src="js/animate.js"></script>     
@@ -227,7 +227,6 @@
                     </div><!-- .filter_navigation -->
                 </div><!-- .filter_block -->
                 
-                <!-- 3 Category classes: body, head, and trainin -->
                 <div class="portfolio_block image-grid columns4" id="list">   
                                                              
                     <div data-category="head" class="head element">
@@ -653,12 +652,7 @@
                             </div> 
                         </div>
                     </div><!-- .element -->
-<!-- End Categorize Later -->
 
-
-
-
-              
                     
                 </div><!-- .portfolio_block -->
                 <div class="clear"></div> 
