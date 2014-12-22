@@ -239,15 +239,7 @@
                         </div>
                     </div><!-- .element --> 
                     
- 
-                    <div data-category="body" class="body element">
-                        <div class="filter_img">
-                            <div class="hover_img">
-                                <img src="images/portfolio/2.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
-                            </div> 
-                        </div>
-                    </div><!-- .element -->                        
+                    
                     
                     <div data-category="head" class="head element">
                         <div class="filter_img">
@@ -292,7 +284,314 @@
                                 <a href="single_portfolio.php" class="zoom">Zoom</a>
                             </div> 
                         </div>
+                    </div><!-- .element -->
+
+
+
+<!-- Categorize Later -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/8.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
                     </div><!-- .element -->   
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/10.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/11.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->     
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/12.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/13.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/14.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/15.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/16.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/17.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/18.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/19.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/20.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/21.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/22.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/23.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/24.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/25.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/26.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/27.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/28.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/29.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/30.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/31.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/32.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/33.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/34.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/35.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/36.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/37.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/38.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/39.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="misc" class="misc element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/40.jpg" alt="" />
+                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+<!-- End Categorize Later -->
+
+
+
+
               
                     
                 </div><!-- .portfolio_block -->
