@@ -219,8 +219,8 @@
                                     <li class="selected"><a data-option-value="*" href="#filter">All works</a></li>
                                     <li><a title="View all post filed under Portraits" data-option-value=".body" href="#filter">Body Shots</a></li>
                                     <li><a title="View all post filed under Fashion" data-option-value=".head" href="#filter">Head Shots</a></li>
-                                    <li><a title="View all post filed under Style" data-option-value=".training" href="#filter">Training and Workshops</a></li>
-                                    <!--<li><a title="View all post filed under Advertising" data-option-value=".advertising" href="#filter">Advertising</a></li>-->
+                                    <!--<li><a title="View all post filed under Style" data-option-value=".training" href="#filter">Training and Workshops</a></li>
+                                    <li><a title="View all post filed under Advertising" data-option-value=".advertising" href="#filter">Advertising</a></li>-->
                                 </ul>
                             </li>
                         </ul>
@@ -248,7 +248,7 @@
                         </div>
                     </div><!-- .element -->   
 
-                    <div data-category="training" class="training element">
+                    <div data-category="body" class="body element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/5.jpg" alt="" />
@@ -447,7 +447,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="head" class="head element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/28.jpg" alt="" />
@@ -465,7 +465,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="head" class="head element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/30.jpg" alt="" />
@@ -627,7 +627,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="body" class="body element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/48.jpg" alt="" />
