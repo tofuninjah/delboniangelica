@@ -217,19 +217,19 @@
                             <li>
                                 <ul data-option-key="filter" class="optionset">
                                     <li class="selected"><a data-option-value="*" href="#filter">All works</a></li>
-                                    <li><a title="View all post filed under Portraits" data-option-value=".body" href="#filter">Body Shots</a></li>
-                                    <li><a title="View all post filed under Fashion" data-option-value=".head" href="#filter">Head Shots</a></li>
-                                    <!--<li><a title="View all post filed under Style" data-option-value=".training" href="#filter">Training and Workshops</a></li>
-                                    <li><a title="View all post filed under Advertising" data-option-value=".advertising" href="#filter">Advertising</a></li>-->
+                                    <li><a title="View all post filed under Body" data-option-value=".bodyshots" href="#filter">Body Shots</a></li>
+                                    <li><a title="View all post filed under Head" data-option-value=".headshots" href="#filter">Head Shots</a></li>
+                                    <li><a title="View all post filed under Misc" data-option-value=".miscshots" href="#filter">Misc</a></li>
+                                    <!--<li><a title="View all post filed under Advertising" data-option-value=".advertising" href="#filter">Advertising</a></li>-->
                                 </ul>
                             </li>
                         </ul>
                     </div><!-- .filter_navigation -->
                 </div><!-- .filter_block -->
                 
-                <div class="portfolio_block image-grid columns4" id="list">   
+                <div class="portfolio_block image-grid columns4" id="list">
                                                              
-                    <div data-category="head" class="head element">
+                    <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/3.jpg" alt="" />
@@ -238,7 +238,7 @@
                         </div>
                     </div><!-- .element -->       
 
-                    <div data-category="body" class="body element">
+                    <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/4.jpg" alt="" />
@@ -247,7 +247,7 @@
                         </div>
                     </div><!-- .element -->   
 
-                    <div data-category="body" class="body element">
+                    <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/5.jpg" alt="" />
@@ -256,7 +256,7 @@
                         </div>
                     </div><!-- .element -->   
 
-                    <div data-category="head" class="head element">
+                    <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/6.jpg" alt="" />
@@ -265,7 +265,7 @@
                         </div>
                     </div><!-- .element -->   
 
-                    <div data-category="head" class="head element">
+                    <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/7.jpg" alt="" />
@@ -275,7 +275,7 @@
                     </div><!-- .element -->
 
 
-                    <div data-category="head" class="head element">
+                    <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/8.jpg" alt="" />
@@ -284,7 +284,7 @@
                         </div>
                     </div><!-- .element -->   
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/10.jpg" alt="" />
@@ -293,7 +293,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="body" class="body element">
+                    <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/11.jpg" alt="" />
@@ -302,7 +302,7 @@
                         </div>
                     </div><!-- .element -->     
 
-                    <div data-category="body" class="body element">
+                    <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/12.jpg" alt="" />
@@ -311,7 +311,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/13.jpg" alt="" />
@@ -320,7 +320,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="body" class="body element">
+                    <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/14.jpg" alt="" />
@@ -329,7 +329,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/15.jpg" alt="" />
@@ -338,7 +338,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/16.jpg" alt="" />
@@ -347,7 +347,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/17.jpg" alt="" />
@@ -356,7 +356,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/18.jpg" alt="" />
@@ -365,7 +365,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/19.jpg" alt="" />
@@ -374,7 +374,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/20.jpg" alt="" />
@@ -383,7 +383,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/21.jpg" alt="" />
@@ -392,7 +392,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/22.jpg" alt="" />
@@ -401,7 +401,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/23.jpg" alt="" />
@@ -410,7 +410,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/24.jpg" alt="" />
@@ -419,7 +419,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/25.jpg" alt="" />
@@ -428,7 +428,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/26.jpg" alt="" />
@@ -437,7 +437,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/27.jpg" alt="" />
@@ -446,7 +446,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="head" class="head element">
+                    <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/28.jpg" alt="" />
@@ -455,7 +455,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/29.jpg" alt="" />
@@ -464,7 +464,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="head" class="head element">
+                    <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/30.jpg" alt="" />
@@ -473,7 +473,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/31.jpg" alt="" />
@@ -482,7 +482,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/32.jpg" alt="" />
@@ -491,7 +491,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/33.jpg" alt="" />
@@ -500,7 +500,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/34.jpg" alt="" />
@@ -509,7 +509,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/35.jpg" alt="" />
@@ -518,7 +518,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/36.jpg" alt="" />
@@ -527,7 +527,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/37.jpg" alt="" />
@@ -536,7 +536,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/38.jpg" alt="" />
@@ -545,7 +545,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/39.jpg" alt="" />
@@ -554,7 +554,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/40.jpg" alt="" />
@@ -563,7 +563,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/41.jpg" alt="" />
@@ -572,7 +572,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/42.jpg" alt="" />
@@ -581,7 +581,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/43.jpg" alt="" />
@@ -590,7 +590,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/44.jpg" alt="" />
@@ -599,7 +599,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/45.jpg" alt="" />
@@ -608,7 +608,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/46.jpg" alt="" />
@@ -617,7 +617,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/47.jpg" alt="" />
@@ -626,7 +626,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="body" class="body element">
+                    <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/48.jpg" alt="" />
@@ -635,7 +635,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/49.jpg" alt="" />
@@ -644,7 +644,7 @@
                         </div>
                     </div><!-- .element -->
 
-                    <div data-category="misc" class="misc element">
+                    <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
                                 <img src="images/portfolio/50.jpg" alt="" />
