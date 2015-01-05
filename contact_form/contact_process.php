@@ -46,7 +46,7 @@ if ($post) {
   if(!$error) {
     $mail = new SendGrid\Mail();
 
-    $mail->addTo('chung.kang@gmail.com')->
+    $mail->addTo('brazilmodel@gmail.com')->
         setFrom($email)->
         setFromName($name)->
         setSubject($subject)->
