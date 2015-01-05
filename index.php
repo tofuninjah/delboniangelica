@@ -475,7 +475,6 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                               
                                 <a href="images/portfolio/full/34.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/34.jpg" alt="" /></a>
                             </div> 
                         </div>
@@ -492,8 +491,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                
-                                <a href="single_portfolio.php" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/36.jpg" alt="" /></a>
+                                <a href="images/portfolio/full/36.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/36.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
