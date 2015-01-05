@@ -232,8 +232,7 @@
                     <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/3.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/3.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/3.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->       
@@ -241,8 +240,7 @@
                     <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/4.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/4.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/4.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->   
@@ -250,8 +248,8 @@
                     <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/5.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                
+                                <a href="images/portfolio/full/5.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/5.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->   
@@ -259,8 +257,7 @@
                     <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/6.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/6.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/6.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->   
@@ -268,8 +265,7 @@
                     <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/7.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/7.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/7.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -278,8 +274,7 @@
                     <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/8.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/8.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/8.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->   
@@ -287,8 +282,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/10.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/10.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/10.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -296,8 +290,7 @@
                     <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/11.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/11.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/11.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->     
@@ -305,8 +298,7 @@
                     <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/12.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/12.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/12.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -314,8 +306,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/13.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/13.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/13.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -323,8 +314,8 @@
                     <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/14.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                
+                                <a href="images/portfolio/full/14.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/14.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -332,8 +323,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/15.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/15.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/15.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -341,8 +331,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/16.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/16.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/16.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -350,8 +339,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/17.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/17.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/17.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -359,8 +347,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/18.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/18.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/18.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -368,8 +355,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/19.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/19.jpgp" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/19.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -377,8 +363,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/20.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/20.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/20.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -386,8 +371,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/21.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/21.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/21.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -395,8 +379,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/22.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/22.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/22.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -404,8 +387,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/23.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/23.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/23.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -413,8 +395,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/24.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/24.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/24.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -422,8 +403,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/25.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/25.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/25.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -431,8 +411,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/26.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/26.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/26.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -440,8 +419,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/27.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/27.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/27.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -449,8 +427,7 @@
                     <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/28.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/28.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/28.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -458,8 +435,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/29.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/29.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/29.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -467,8 +443,7 @@
                     <div data-category="headshots" class="headshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/30.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/30.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/30.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -476,8 +451,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/31.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/31.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/31.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -485,8 +459,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/32.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/32.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/32.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -494,8 +467,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/33.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/33.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/33.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -503,8 +475,8 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/34.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                               
+                                <a href="images/portfolio/full/34.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/34.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -512,8 +484,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/35.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/35.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/35.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -521,8 +492,8 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/36.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                
+                                <a href="single_portfolio.php" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/36.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -530,8 +501,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/37.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/37.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/37.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -539,8 +509,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/38.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/38.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/38.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -548,8 +517,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/39.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/39.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/39.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -557,8 +525,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/40.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/40.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/40.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -566,8 +533,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/41.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/41.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/41.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -575,8 +541,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/42.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/42.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/42.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -584,8 +549,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/43.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/43.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/43.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -593,8 +557,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/44.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/44.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/44.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -602,8 +565,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/45.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/45.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/45.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -611,8 +573,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/46.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/46.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/46.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -620,8 +581,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/47.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/47.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/47.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -629,8 +589,7 @@
                     <div data-category="bodyshots" class="bodyshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/48.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/48.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/48.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -638,8 +597,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/49.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/49.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/49.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -647,8 +605,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <img src="images/portfolio/50.jpg" alt="" />
-                                <a href="single_portfolio.php" class="zoom">Zoom</a>
+                                <a href="images/portfolio/full/50.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/50.jpg" alt="" rel="prettyPhoto" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
@@ -736,7 +693,33 @@
         	<!-- //footer_bottom -->
         </div>
         <!--//footer-->
-    </div><!-- end #page --> 
-    <header class="fixed-menu"></header>    			
+    </div><!-- end #page -->
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+        $("a[rel^='prettyPhoto']").prettyPhoto({
+            animation_speed: 'fast', /* fast/slow/normal */
+            slideshow: 5000, /* false OR interval time in ms */
+            autoplay_slideshow: false, /* true/false */
+            opacity: 0.80, /* Value between 0 and 1 */
+            show_title: true, /* true/false */
+            allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+            default_width: 500,
+            default_height: 344,
+            counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+            theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+            horizontal_padding: 20, /* The padding on each side of the picture */
+            hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+            wmode: 'opaque', /* Set the flash wmode attribute */
+            autoplay: true, /* Automatically start videos: True/False */
+            modal: false, /* If set to true, only the close button will close the window */
+            deeplinking: true, /* Allow prettyPhoto to update the url to enable deeplinking. */
+            overlay_gallery: true, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+            keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
+            changepicturecallback: function(){}, /* Called everytime an item is shown/changed */
+            callback: function(){}, /* Called when prettyPhoto is closed */
+            social_tools: false /* html or false to disable */
+        });
+    });
+</script>	
 </body>
 </html>
