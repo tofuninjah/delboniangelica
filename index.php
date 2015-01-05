@@ -720,6 +720,8 @@
             social_tools: false /* html or false to disable */
         });
     });
-</script>	
+</script>
+<!-- end #page --> 
+    <header class="fixed-menu"></header> 
 </body>
 </html>
