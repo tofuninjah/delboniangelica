@@ -46,12 +46,11 @@ if ($post) {
   if(!$error) {
     $mail = new SendGrid\Mail();
 
-    $mail->addTo('brazilmodel@gmail.com')->
+    $mail->addTo('chung.kang@gmail.com')->
         setFrom($email)->
         setFromName($name)->
         setSubject($subject)->
-        setText($message)->
-        setHtml($message);
+        setText($message);
 
     if($sendgrid->smtp->send($mail)){
       echo 'OK';
