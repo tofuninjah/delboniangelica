@@ -355,7 +355,7 @@
                     <div data-category="miscshots" class="miscshots element">
                         <div class="filter_img">
                             <div class="hover_img">
-                                <a href="images/portfolio/full/19.jpgp" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/19.jpg" alt="" /></a>
+                                <a href="images/portfolio/full/19.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/19.jpg" alt="" /></a>
                             </div> 
                         </div>
                     </div><!-- .element -->
