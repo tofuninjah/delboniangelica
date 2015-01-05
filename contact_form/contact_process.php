@@ -1,6 +1,6 @@
 <?php
 
-#require_once $_SERVER['DOCUMENT_ROOT'] . '/libs/swift-5.0.1/lib/swift_required.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/libs/swift-5.0.1/lib/swift_required.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/libs/sendgrid-php/SendGrid_loader.php';
 $user = getenv("SENDGRID_USERNAME");
 $pass = getenv("SENDGRID_PASSWORD");
