@@ -1513,7 +1513,6 @@ iframe {
 }
 
 .fixed-menu {
-	border:dashed;
 	position:fixed;
 	left:0px;
 	top:0;
