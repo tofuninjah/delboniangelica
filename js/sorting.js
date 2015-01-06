@@ -4,10 +4,19 @@ jQuery(window).load(function(){
 jQuery(function(){
   var $container = $('.portfolio_block');
   
+
   $container.isotope({
 	itemSelector : '.element'
   });
-    
+  
+
+// layout Isotope again after all images have loaded
+$container.imagesLoaded( function() {
+  //$container.isotope('layout');
+});
+
+
+
   var $optionSets = $('#options .optionset'),
 	  $optionLinks = $optionSets.find('a');
 

@@ -481,6 +481,7 @@ p {
 .item_wrap .separator {color:#a9a8a8;
 }
 
+
 .hover_img {
 	position:relative;
 	background:#ff939e;
@@ -515,9 +516,10 @@ p {
 	-webkit-transition: opacity 0.4s ease-in-out; 
 }
 .hover_img:hover img {
-	opacity: 0.2; 
+	opacity: 0.5; 
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);	
 }
+
 
 .page_section header {
 	color: #404040;
@@ -1511,12 +1513,12 @@ iframe {
 }
 
 .fixed-menu {
-	border:none;
+	border:dashed;
 	position:fixed;
 	left:0px;
 	top:0;
 	background:#070707!important;
-	z-index:99999;
+	z-index:9999;
 	opacity: 0;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 	width:100%!important;

@@ -146,6 +146,7 @@ var isMobile = false;
 		animated_contents();
 		
 		$(window).scroll(function () {
+
 			animated_contents();
 		}); 
 			            

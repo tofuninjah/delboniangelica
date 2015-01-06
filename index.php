@@ -18,13 +18,16 @@
     <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,700,300,600,400' rel='stylesheet' type='text/css'>
     
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <!--<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>-->
+	<!--<script src="js/jquery-ui.min.js" type="text/javascript"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/sorting.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script> 
     <script type="text/javascript" src="js/current.js"></script>
     <script type="text/javascript" src="js/animate.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){   
             $("#ajax-contact-form").submit(function() {
@@ -114,7 +117,7 @@
                 <div class="container"> 
                     <h1><b>About</b> <b class="color">Angelica</b> Delboni</h1>
                     <p>I have the gift of making people feel comfortable and I am very 
-                        dependable.  Works as a model for more than six years in Brazil, and feel very proud of all the works that I have carried out. I expect to be able to continue my international career.</p>
+                        dependable.  Works as a model for more than six years in Brazil, and feel very proud of all the works that I have carried out.</p>
                 </div><!-- end .container -->
             </header>
             <!-- //section header -->
