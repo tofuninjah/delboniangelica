@@ -863,9 +863,9 @@ blockquote p a:hover {color:#cccccc !important;
 	background:#ff939e;
 }
 
-#blog {/*position: relative;*/
+#models {/*position: relative;*/
 }
-#blog header{
+#models header{
 	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center top;
 	background-attachment:fixed;

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <title>Angelica Delboni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/jplayer/jplayer.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- // IE  // -->
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,700,300,600,400' rel='stylesheet' type='text/css'>
+    
+    <!--<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>-->
+    <!--<script src="js/jquery-ui.min.js" type="text/javascript"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/sorting.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script> 
+    <script type="text/javascript" src="js/current.js"></script>
+    <script type="text/javascript" src="js/animate.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){   
+            $("#ajax-contact-form").submit(function() {
+                var str = $(this).serialize();      
+                $.ajax({
+                    type: "POST",
+                    url: "contact_form/contact_process.php",
+                    data: str,
+                    success: function(msg) {
+                        // Message Sent - Show the 'Thank You' message and hide the form
+                        if(msg == 'OK') {
+                            result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+                            $("#fields").hide();
+                        } else {
+                            result = msg;
+                        }
+                        $('#note').html(result);
+                    }
+                });
+                return false;
+            });
+
+        });     
+    </script>     
+</head>
+<body class="animated" data-animated="fadeIn">
+    <!-- #page -->
+    <div id="page">
+        <!-- header section -->
+        <section id="top">
+            <header>                                    
+                <!-- logo -->
+                <div id="logo">
+                    <a href="index.html#top"><img src="images/logo.png" width="167" height="34" alt="" /></a>
+                </div>
+                <div id="top_phone" class="visible-desktop">Cal us toll free +1 800 201 35 38</div> 
+                <!-- menu -->
+                <nav class="navmenu">
+                    <ul>
+                        <li class="active"><a href="#top">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#models">Models</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                    </ul>
+                </nav><!-- end nav --> 
+                <div class="clear"></div>
+            </header>               
+        </section><!-- //header section -->
+            
+        <!-- home content -->
+        <section class="page_section" id="home">
+            <!--Slider-->
+            <div class="full_slider">
+                <div id="fullwidth_slider" class="flexslider">
+                  <ul class="slides">
+                    <li>
+                        <img src="images/slider/1.jpg" alt="" class="slide_bg" />
+                        <div class="full_slider_caption">
+                            Top notch multipurpose
+                            <div class="slide_title">Onepage portfolio Template</div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/slider/2.jpg" alt="" class="slide_bg" />
+                        <div class="full_slider_caption">
+                            Suspendisse in justo
+                            <div class="slide_title">Integer euismod lacus</div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/slider/3.jpg" alt="" class="slide_bg" />
+                        <div class="full_slider_caption">
+                            Integer euismod lacus
+                            <div class="slide_title">Suspendisse in justo</div>
+                        </div>
+                    </li>                        
+                  </ul>
+                </div>
+             </div>          
+            <!--//Slider-->
+                    
+            <div class="container">
+                <!--promo text-->
+                <div class="promo_text_block">
+                    <h1>Right here we've got something you gonna love!</h1>
+                    Discover elegant solution for your online portfolio. Fast, reliable, affordable...
+                </div>
+                <!--//promo text-->
+            
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="service">
+                            <a href="javascript:void(0);">
+                                <span class="service_icon">*</span>
+                                <span class="service_title">Fresh &amp; clean design</span>
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service">
+                            <a href="javascript:void(0);">
+                                <span class="service_icon">0</span>
+                                <span class="service_title">Fully responsive</span>
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service">
+                            <a href="javascript:void(0);">
+                                <span class="service_icon">s</span>
+                                <span class="service_title">Very flexible</span>
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service">
+                            <a href="javascript:void(0);">
+                                <span class="service_icon">w</span>
+                                <span class="service_title">Ongoing support</span>
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos per vestibulum. 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- section content -->
+            <div class="content_section container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="title">Latest Events</h4>
+                        <!--Carousel-->
+                        <div class="carouselslider featured_posts items4" data-count="4">
+                            <ul class="item_list">                                                    
+                                <li>
+                                    <div class="item">
+                                        <div class="img_block hover_img">
+                                            <img src="images/blog/latest_1.jpg" alt="" />
+                                            <a href="single_post.html" class="zoom">Zoom</a>
+                                        </div>
+                                        <div class="item_wrap">
+                                            <h4><a href="javascript:void(0);">Lorem Ipsum Dolor Amet</a></h4>
+                                            <div class="desc_block">Class aptent taciti sociosqu litora vestibulum egestas peresta conubia nostra, inceptos himenaeos.</div>
+                                            25 April 2019 <span class="separator">/</span> <a href="javascript:void(0);">Read more!</a>
+                                        </div>
+                                    </div>
+                                </li>                                          
+                                <li>
+                                    <div class="item">
+                                        <div class="img_block hover_img">
+                                            <img src="images/blog/latest_2.jpg" alt="" />
+                                            <a href="single_post.html" class="zoom">Zoom</a>
+                                        </div>
+                                        <div class="item_wrap">
+                                            <h4><a href="javascript:void(0);">Vestibulum Eget</a></h4>
+                                            <div class="desc_block">Class aptent taciti sociosqu litora vestibulum egestas peresta conubia nostra, inceptos himenaeos.</div>
+                                            25 April 2019 <span class="separator">/</span> <a href="javascript:void(0);">Read more!</a>
+                                        </div>
+                                    </div>
+                                </li>                                          
+                                <li>
+                                    <div class="item">
+                                        <div class="img_block hover_img">
+                                            <img src="images/blog/latest_3.jpg" alt="" />
+                                            <a href="single_post.html" class="zoom">Zoom</a>
+                                        </div>
+                                        <div class="item_wrap">
+                                            <h4><a href="javascript:void(0);">Pellentesque Egestas</a></h4>
+                                            <div class="desc_block">Class aptent taciti sociosqu litora vestibulum egestas peresta conubia nostra, inceptos himenaeos.</div>
+                                            25 April 2019 <span class="separator">/</span> <a href="javascript:void(0);">Read more!</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <div class="img_block hover_img">
+                                            <img src="images/blog/latest_4.jpg" alt="" />
+                                            <a href="single_post.html" class="zoom">Zoom</a>
+                                        </div>
+                                        <div class="item_wrap">
+                                            <h4><a href="javascript:void(0);">Ridiculus sed Mauris</a></h4>
+                                            <div class="desc_block">Class aptent taciti sociosqu litora vestibulum egestas peresta conubia nostra, inceptos himenaeos.</div>
+                                            25 April 2019 <span class="separator">/</span> <a href="javascript:void(0);">Read more!</a>
+                                        </div>
+                                    </div>
+                                </li>                                          
+                                <li>
+                                    <div class="item">
+                                        <div class="img_block hover_img">
+                                            <img src="images/blog/latest_1.jpg" alt="" />
+                                            <a href="single_post.html" class="zoom">Zoom</a>
+                                        </div>
+                                        <div class="item_wrap">
+                                            <h4><a href="javascript:void(0);">Lorem Ipsum Dolor Amet</a></h4>
+                                            <div class="desc_block">Class aptent taciti sociosqu litora vestibulum egestas peresta conubia nostra, inceptos himenaeos.</div>
+                                            25 April 2019 <span class="separator">/</span> <a href="javascript:void(0);">Read more!</a>
+                                        </div>
+                                    </div>
+                                </li>                                          
+                                <li>
+                                    <div class="item">
+                                        <div class="img_block hover_img">
+                                            <img src="images/blog/latest_2.jpg" alt="" />
+                                            <a href="single_post.html" class="zoom">Zoom</a>
+                                        </div>
+                                        <div class="item_wrap">
+                                            <h4><a href="javascript:void(0);">Vestibulum Eget</a></h4>
+                                            <div class="desc_block">Class aptent taciti sociosqu litora vestibulum egestas peresta conubia nostra, inceptos himenaeos.</div>
+                                            25 April 2019 <span class="separator">/</span> <a href="javascript:void(0);">Read more!</a>
+                                        </div>
+                                    </div>
+                                </li>                                          
+                            </ul>                                                    
+                        </div>
+                        <div class="clear"></div>
+                        <!--//Carousel-->
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <a href="#about" class="next_section"></a>
+            </div>
+            <!-- //section content -->
+        </section>       
+
+        <!-- about content-->
+        <section class="page_section" id="about">
+            <!-- section header -->
+            <header>
+                <div class="container">
+                    <h1><b>About</b> <b class="color">TOP</b> model</h1>
+                    <p>We listen, we discuss, we design &amp; develop. We love what we do!</p>
+                </div><!-- end .container -->
+            </header>
+            <!-- //section header -->
+            
+            <!-- section content -->
+            <div class="content_section container"> 
+                <div class="skill_start"></div>
+                <div class="row">
+                    <div class="col-md-4"><div class="marg_b"><img src="images/about1.jpg" alt="" /></div></div>
+                    <div class="col-md-8">
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec sagittis nulla. Aenean consequat aliquet malesuada cras ut lacinia augue. Praesent in viverra erat, sit amet facilisis lacus. Sed congue augue molestie tincidunt porta. Integer pretiumt eget  gravida sem sit amet placerat. Nulla dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci. Nullam auctor risus nunc, sed gravida mi dapibus mollis phasellus eu sed.</p>
+                            <p><a href="javascript:void(0);">Anna Smith, Company inc.</a></p>
+                        </blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec sagittis nulla. Aenean consequat aliquet malesuada cras ut lacinia augue. Praesent in viverra erat, sit amet facilisis lacus. Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat. Nulla dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus. Mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium mauris eleifend sed. Nunc in sollicitudin felis. Cras nec nisl nisl. Etiam sapien.</p>
+                    </div>                
+                </div>
+                
+                <div class="divider60"></div>
+
+                <div class="clear"></div>
+                <a href="#models" class="next_section"></a>    
+            </div>
+            <!-- //section content -->
+        </section>
+
+        <!-- models content-->
+        <section class="page_section" id="models">
+            <!-- section header -->
+            <header>
+                <div class="container">
+                    <h1><b>Our models</b></h1>
+                    <p>Right here we've got something you gonna love...</p>
+                </div><!-- end .container -->
+            </header>
+            <!-- //section header -->            
+            <!-- section content -->
+            <div class="content_section">
+                <div class="module_wall_grid">
+                    <ul id="og-grid" class="og-grid">
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/1.jpg" data-title="Anna Smith" data-modelinfo="Age: <span>17</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/1.jpg" alt="img01"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/2.jpg" data-title="Marva Penwell" data-modelinfo="Age: <span>18</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/2.jpg" alt="img02"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/3.jpg" data-title="Mildred Compo" data-modelinfo="Age: <span>19</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/3.jpg" alt="img03"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/4.jpg" data-title="Courtney Richards" data-modelinfo="Age: <span>20</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/4.jpg" alt="img04"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/5.jpg" data-title="Barbara Smith" data-modelinfo="Age: <span>21</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/5.jpg" alt="img05"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/6.jpg" data-title="Mary Burns" data-modelinfo="Age: <span>22</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/6.jpg" alt="img06"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/7.jpg" data-title="Teresa Alvarez" data-modelinfo="Age: <span>23</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/7.jpg" alt="img07"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/8.jpg" data-title="Tammy Bray" data-modelinfo="Age: <span>24</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/8.jpg" alt="img08"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/9.jpg" data-title="Joan Hawks" data-modelinfo="Age: <span>25</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/9.jpg" alt="img09"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/10.jpg" data-title="Robin Woods" data-modelinfo="Age: <span>26</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/10.jpg" alt="img10"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/11.jpg" data-title="Lilia Richie" data-modelinfo="Age: <span>27</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/11.jpg" alt="img11"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" data-largesrc="images/gallery/large/12.jpg" data-title="Esther Doane" data-modelinfo="Age: <span>28</span><br/>Height: <span>5'8</span><br/>Bust: <span>32</span><br/>Waist: <span>24</span><br/>Dress: <span>8</span><br/>Shoe W: <span>37</span><br/>Hair Color: <span>Blonde</span><br/>Eyes: <span>Green</span>" data-description="Sed congue augue molestie tincidunt porta. Integer pretium gravida sem sit amet placerat nulla set dignissim tincidunt velit accumsan semper. Maecenas eget odio ultricies, pulvinar purus sed, tempus orci tnullam auctor risus nunc, sed gravida mi dapibus mollis. Phasellus eu rhoncus lorem, sed dapibus erat. Fusce malesuada, odio eget feugiat adipiscing, massa nisl molestie felis, et sagittis eros leo et lorem. Integer lacinia leo nunc, nec lacinia justo volutpat et nam at metus ut ligula tincidunt pulvinar. Ut eget est quis sem vulputate ultrices non et magna. In in egestas magna aliquam erat volutpat. donec sit amet ipsum tincidunt, tempor purus non, accumsan lacus mauris egestas mauris id tellus eleifend, vel tincidunt nibh aliquam Vivamus non erat ut metus gravida aliquet. Integer malesuada gravida nisi sed fringilla. Etiam auctor lectus orci, et pretium.">
+                                <img src="images/gallery/12.jpg" alt="img12"/>
+                                <span class="plus_icon"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <script type="text/javascript" src="js/grid.js"></script>
+                    <script type="text/javascript">
+                        jQuery(window).load(function(){
+                            jQuery(function() {
+                                Grid.init();
+                            });                             
+                        });
+                    </script>
+                </div><!--.module_cont -->                
+                <div class="clear"></div>
+                <a href="#portfolio" class="next_section"></a>
+            </div>
+            <!-- //section content --> 
+        </section>        
+        
+        <!-- portfolio content-->
+        <section class="page_section" id="portfolio">
+            <!-- section header -->
+            <header>
+                <div class="container">
+                    <h1><b>Portfolio</b></h1>
+                    <p>Discover elegant solution for your online portfolio!</p>
+                </div><!-- end .container -->
+            </header>
+            <!-- //section header -->            
+            <!-- section content -->
+            <div class="content_section">
+                <!-- Portfolio -->
+                <div class="filter_block">
+                    <div class="filter_navigation">
+                        <ul id="options" class="splitter">
+                            <li>
+                                <ul data-option-key="filter" class="optionset">
+                                    <li class="selected"><a data-option-value="*" href="#filter">All works</a></li>
+                                    <li><a title="View all post filed under Portraits" data-option-value=".portraits" href="#filter">Portraits</a></li>
+                                    <li><a title="View all post filed under Fashion" data-option-value=".fashion" href="#filter">Fashion</a></li>
+                                    <li><a title="View all post filed under Style" data-option-value=".style" href="#filter">Style</a></li>
+                                    <li><a title="View all post filed under Advertising" data-option-value=".advertising" href="#filter">Advertising</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- .filter_navigation -->
+                </div><!-- .filter_block -->
+                
+                <div class="portfolio_block image-grid columns4" id="list">   
+                                                             
+                    <div data-category="portraits" class="portraits fashion element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/1.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>
+                    </div><!-- .element --> 
+                    
+                    <div data-category="fashion" class="fashion portraits element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/2.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="style" class="style element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/3.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                        
+                    </div><!-- .element -->                                                    
+
+                    <div data-category="advertising" class="advertising element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/4.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                         
+                    </div><!-- .element -->
+                    
+                    <div data-category="portraits" class="portraits fashion style element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/5.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>
+                    </div><!-- .element --> 
+                    
+                    <div data-category="fashion" class="fashion advertising element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/6.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="style" class="style portraits element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/10.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                        
+                    </div><!-- .element -->                                                    
+
+                    <div data-category="advertising" class="advertising style element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/8.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                         
+                    </div><!-- .element -->
+                    
+                    <div data-category="portraits" class="portraits advertising element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/12.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>
+                    </div><!-- .element --> 
+                    
+                    <div data-category="fashion" class="fashion style element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/9.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="style" class="style advertising element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/11.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                        
+                    </div><!-- .element -->                                                    
+
+                    <div data-category="advertising" class="advertising portraits element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/7.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                         
+                    </div><!-- .element -->
+                    
+                    <div data-category="portraits" class="portraits element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/18.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>
+                    </div><!-- .element --> 
+                    
+                    <div data-category="fashion" class="fashion element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/15.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->
+
+                    <div data-category="style" class="style element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/16.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                        
+                    </div><!-- .element -->                                                    
+
+                    <div data-category="advertising" class="advertising element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/14.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>                                                         
+                    </div><!-- .element -->
+                    
+                    <div data-category="portraits" class="portraits element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/17.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div>
+                        </div>
+                    </div><!-- .element --> 
+                    
+                    <div data-category="fashion" class="fashion element">
+                        <div class="filter_img">
+                            <div class="hover_img">
+                                <img src="images/portfolio/13.jpg" alt="" />
+                                <a href="single_portfolio.html" class="zoom">Zoom</a>
+                            </div> 
+                        </div>
+                    </div><!-- .element -->                        
+                    
+                </div><!-- .portfolio_block -->
+                <div class="clear"></div> 
+                           
+                <!-- //Portfolio -->
+                <div class="clear"></div>
+                <a href="#blog" class="next_section"></a>
+            </div>
+            <!-- //section content -->            
+        </section>
+        
+       
+
+        <!-- Contact content -->
+        <section class="page_section" id="contact">
+            <!-- section header -->
+            <header>
+                <div class="container">
+                    <h1><b>Contact information</b></h1>
+                    <!--<p>sub-text for contact information!</p>-->
+                </div><!-- end .container -->
+            </header>
+            <!-- //section header -->      
+                        
+            <!-- section content -->
+            <div class="contact_form content_section container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="note"></div>
+                        <div id="fields"> 
+                            <form id="ajax-contact-form" action="#">                                
+                                <input type="text" class="required" name="name" value="Name" title="Name" />
+                                <input type="text" class="required" name="email" value="Email" title="Email" />
+                                <input type="text" name="subject" value="Subject" title="Subject" />                            
+                                <textarea name="message" class="required" id="message" title="Message">Message</textarea> 
+                                <input type="reset" class="send_btn" value="Clear form" />
+                                <input class="send_btn" type="submit" value="Send message!"> 
+                            </form> 
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>  
+        
+        <!--footer-->
+        <div class="footer">
+            <!--footer_sidebar-->
+            <div class="footer_sidebar">
+            </div>
+            <!--//footer_sidebar-->
+            <!-- footer_bottom -->
+            <div class="footer_bottom container">           
+                <div class="copyright">&copy; 2014 Angelica Delboni</div>
+            </div>
+            <!-- //footer_bottom -->
+        </div>
+        <!--//footer-->
+
+    </div><!-- end #page -->
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                animation_speed: 'fast', /* fast/slow/normal */
+                slideshow: 5000, /* false OR interval time in ms */
+                autoplay_slideshow: false, /* true/false */
+                opacity: 0.80, /* Value between 0 and 1 */
+                show_title: true, /* true/false */
+                allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+                default_width: 500,
+                default_height: 344,
+                counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+                theme: 'dark_square', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+                horizontal_padding: 20, /* The padding on each side of the picture */
+                hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+                wmode: 'opaque', /* Set the flash wmode attribute */
+                autoplay: true, /* Automatically start videos: True/False */
+                modal: false, /* If set to true, only the close button will close the window */
+                deeplinking: true, /* Allow prettyPhoto to update the url to enable deeplinking. */
+                overlay_gallery: true, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+                keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
+                changepicturecallback: function(){}, /* Called everytime an item is shown/changed */
+                callback: function(){}, /* Called when prettyPhoto is closed */
+                social_tools: false /* html or false to disable */
+            });
+        });
+    </script>
+    <!-- end #page --> 
+    <header class="fixed-menu"></header>               
+</body>
+</html>

@@ -674,45 +674,32 @@
                             </form> 
                         </div>
                     </div>
-                    <!--//
-                	<div class="col-md-4 contact_info">
-                    	<p class="i1">5512 Lorem Ipsum Vestibulum 666/13</p>
-                        <p class="i2">+1 800 789 50 12, +1 800 450 6935, +1 800 666 13 13</p>
-                        <p class="i3"><a href="mailto:#">mail@compname.com</a></p>
-                        <p class="i4">compname</p>
-                        <p class="i5"><a href="javascript:void(0);">Twitter</a></p>
-                        <p class="i6"><a href="javascript:void(0);">Facebook</a></p>
-                        <p class="i7"><a href="javascript:void(0);">Flickr</a></p>
-                        <p class="i8"><a href="javascript:void(0);">Dribbble</a></p>
-                        <p class="i9"><a href="javascript:void(0);">YouTube</a></p>                    
-                	</div>
-                    -->
                 </div>                
             </div>
-
+            
+            <!-- section content -->
+            <div class="content_section container">
+           
+                <div class="clear"></div>
+                <a href="#top" class="next_section back2top"></a>   
+            </div>      
+            <!-- //section content -->
+        </section>  
             
         <!--footer-->
         <div class="footer">
-        	<!-- footer_bottom -->
-        	<div class="footer_bottom container">
-            	<!--//
-                <div class="socials">
-                    <ul class="socials_list">
-                        <li><a href="javascript:void(0);" class="ico_social-facebook"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-twitter"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-linked"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-delicious"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-vimeo"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-flickr"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-pinterest"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-tumblr"></a></li>                   
-                        <li><a href="javascript:void(0);" class="ico_social-youtube"></a></li>                    
-                        <li><a href="javascript:void(0);" class="ico_social-instagram"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-gplus"></a></li>
-                        <li><a href="javascript:void(0);" class="ico_social-dribbble"></a></li>
-                    </ul>         
+            <!--footer_sidebar-->
+            <div class="footer_sidebar">
+                <div class="container">
+                    <div class="row">
+
+                        
+                    </div>
                 </div>
-                -->                
+            </div>
+            <!--//footer_sidebar-->
+        	<!-- footer_bottom -->
+        	<div class="footer_bottom container">           
                 <div class="copyright">&copy; 2014 Angelica Delboni</div>
             </div>
         	<!-- //footer_bottom -->
