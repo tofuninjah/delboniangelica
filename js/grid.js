@@ -14,6 +14,7 @@ resizeTimeout;
 $special = $event.special.debouncedresize = {
 	setup: function() {
 		$( this ).on( "resize", $special.handler );
+
 	},
 	teardown: function() {
 		$( this ).off( "resize", $special.handler );
@@ -25,7 +26,17 @@ $special = $event.special.debouncedresize = {
 			dispatch = function() {
 				// set correct event type
 				event.type = "debouncedresize";
+
+
+
 				$event.dispatch.apply( context, args );
+
+
+
+				
+
+
+
 			};
 
 		if ( resizeTimeout ) {
@@ -210,6 +221,7 @@ var Grid = (function() {
 			getWinSize();
 			// initialize some events
 			initEvents();
+
 
 		} );
 

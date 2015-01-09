@@ -1340,7 +1340,6 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
         function onTouchMove(e) {
           dx = (vertical) ? startX - e.touches[0].pageY : startX - e.touches[0].pageX;
           scrolling = (vertical) ? (Math.abs(dx) < Math.abs(e.touches[0].pageX - startY)) : (Math.abs(dx) < Math.abs(e.touches[0].pageY - startY));
-
           if (!scrolling || Number(new Date()) - startT > 500) {
             e.preventDefault();
             if (!fade && slider.transitions) {
@@ -1913,6 +1912,11 @@ function calculateScroll() {
 			jQuery('.mobile_menu_wrapper').css({'display' : 'none'});
 			
 		}
+
+		// Chrome hack
+		//console.log( $('body').height() );
+		//$(body).height());
+
 	})
 };
 
@@ -1962,6 +1966,7 @@ jQuery(document).ready(function() {
 	else {
 		$(window).scroll(function(event) {
 			calculateScroll();
+
 		});
 		$('.navmenu ul li a, .mobile_menu ul li a, .next_section, #logo a').click(function() {  
 			$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 1000);
