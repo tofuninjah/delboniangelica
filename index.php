@@ -25,6 +25,7 @@
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/sorting.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script> 
+    <script type="text/javascript" src="js/jquery.ba-throttle-debounce.js"></script>
     <script type="text/javascript" src="js/current.js"></script>
     <script type="text/javascript" src="js/animate.js"></script>
     <script type="text/javascript" src="js/imagesloaded.js"></script>
