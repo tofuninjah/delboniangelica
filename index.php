@@ -175,7 +175,7 @@
                                 <ul>
                                     <li>L&amp;M Web</li>
                                     <li>Absorber Web</li>
-                                    <li>Kideo-Catalogo</li>
+                                    <li>KIDCO - Catalog</li>
                                     <li>Bikini Team International</li>
                                     <li>Pillow Jasmine</li>
                                     <li>Eikal</li>
@@ -187,6 +187,7 @@
                                     <li>Bally's</li>
                                     <li>Ducati</li>
                                     <li>Super Challenge</li>
+                                    <li>McDonalds</li>
                                 </ul>
                             </a>
                         </div>
