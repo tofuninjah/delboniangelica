@@ -1912,12 +1912,16 @@ function calculateScroll() {
 			jQuery('.mobile_menu_wrapper').css({'display' : 'none'});
 			
 		}
+	});
 
-		// Chrome hack
-		//console.log( $('body').height() );
-		//$(body).height());
 
-	})
+	var imgUrl = '../images/slide_bg/slide1_bg.jpg';
+	$('#work header').css({'background-image':'url(' + imgUrl + ')' });
+	$('#portfolio header').css({'background-image':'url(' + imgUrl + ')' });
+	$('#about header').css({'background-image':'url(' + imgUrl + ')' });
+	$('#contact header').css({'background-image':'url(' + imgUrl + ')' });
+	$('.footer_sidebar').css({'background-image':'url(' + imgUrl + ')' });
+
 };
 
 function fullwidthslider() {
@@ -2064,6 +2068,7 @@ jQuery(document).ready(function() {
 	//Iframe transparent
 	$("iframe").each(function(){
 		var ifr_source = $(this).attr('src');
+
 		var wmode = "wmode=transparent";
 		if(ifr_source.indexOf('?') != -1) {
 		var getQString = ifr_source.split('?');
@@ -2107,11 +2112,11 @@ jQuery(window).load(function(){
 	//jQuery('.flexslider').flexslider({
       //  animation: "slide"
     //});
-	
 });
 
 
 jQuery(window).resize(function(){
+
 	//mailchimp
 	jQuery('.mc_input').each(function(){
 		jQuery(this).width(jQuery(this).parents('.widget_mailchimpsf_widget').width()-30);

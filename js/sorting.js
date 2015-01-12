@@ -6,16 +6,14 @@ jQuery(function(){
   
 
   $container.isotope({
-	itemSelector : '.element'
+			itemSelector : '.element'
   });
   
 
 // layout Isotope again after all images have loaded
 $container.imagesLoaded( function() {
-  //$container.isotope('layout');
+  	$container.isotope('layout');
 });
-
-
 
   var $optionSets = $('#options .optionset'),
 	  $optionLinks = $optionSets.find('a');
@@ -49,8 +47,8 @@ $container.imagesLoaded( function() {
 	  $container.isotope(options);	  
 	}	
 	return false;	
-  });	
-			
-});
+  });
 
+	$('.portfolio_block').isotope({ filter: '.work-profile' });
+});
 });

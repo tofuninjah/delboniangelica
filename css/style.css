@@ -107,6 +107,16 @@ strong { font-weight: 600;
 	padding:0 0 11px 0;	
 	text-transform:uppercase;
 }
+.promo_text_block h2 {
+	line-height:43px;
+	color:#ff939e;
+	font-weight:300;
+	font-family: 'Open Sans', sans-serif;
+	font-size:35px;
+	margin:0;
+	padding:50px 0 0 0;	
+	text-transform:uppercase;
+}
 
 .service {
 	line-height:18px;
@@ -615,7 +625,7 @@ blockquote p a:hover {color:#cccccc !important;
 	border-radius:0;
 	display:block;
 	width:88px;
-	height:88px
+	height:88px;
 }
 .skill .skill_text,
 .skill .skill_text_hover {
@@ -796,7 +806,8 @@ blockquote p a:hover {color:#cccccc !important;
 	display:inline-block; 
 	margin-bottom:0; 
 }
-.portfolio_block {margin-bottom:0!important
+.portfolio_block {
+	margin-bottom:0!important
 }
 .columns4 {
 	margin:0!important;

@@ -27,15 +27,7 @@ $special = $event.special.debouncedresize = {
 				// set correct event type
 				event.type = "debouncedresize";
 
-
-
 				$event.dispatch.apply( context, args );
-
-
-
-				
-
-
 
 			};
 
