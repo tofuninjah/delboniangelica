@@ -2112,12 +2112,14 @@ jQuery(window).load(function(){
 		//console.log('Scrolling!!!');
 	}));
 	$(window).scroll($.debounce( 250, function(){
-	var imgUrl = '../images/slide_bg/slide1_bg.jpg';
+		/*
+		var imgUrl = '../images/slide_bg/slide1_bg.jpg';
 		$('#work header').css({'background-image':'url(' + imgUrl + ')' });
 		$('#portfolio header').css({'background-image':'url(' + imgUrl + ')' });
 		$('#about header').css({'background-image':'url(' + imgUrl + ')' });
 		$('#contact header').css({'background-image':'url(' + imgUrl + ')' });
 		$('.footer_sidebar').css({'background-image':'url(' + imgUrl + ')' });
+		*/
 	}));
 
 

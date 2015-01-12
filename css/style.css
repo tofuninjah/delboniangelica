@@ -110,12 +110,10 @@ strong { font-weight: 600;
 .promo_text_block h2 {
 	line-height:43px;
 	color:#ff939e;
-	font-weight:300;
 	font-family: 'Open Sans', sans-serif;
-	font-size:35px;
+	font-size:30px;
 	margin:0;
-	padding:50px 0 0 0;	
-	text-transform:uppercase;
+	padding:50px 0 0 0;
 }
 
 .service {
@@ -574,7 +572,7 @@ p {
 #about header{
 	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center center;
-	background-attachment:fixed;
+	background-attachment:scroll;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -726,7 +724,7 @@ blockquote p a:hover {color:#cccccc !important;
 #work header{
 	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center center;
-	background-attachment:fixed;
+	background-attachment:scroll;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -736,7 +734,7 @@ blockquote p a:hover {color:#cccccc !important;
 #portfolio header{
 	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center center;
-	background-attachment:fixed;
+	background-attachment:scroll;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -879,7 +877,7 @@ blockquote p a:hover {color:#cccccc !important;
 #models header{
 	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center top;
-	background-attachment:fixed;
+	background-attachment:scroll;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -1153,7 +1151,7 @@ blockquote p a:hover {color:#cccccc !important;
 #contact header{
 	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center top;
-	background-attachment:fixed;
+	background-attachment:scroll;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -1323,7 +1321,7 @@ input.send_btn:hover {
 	overflow:hidden;
 	background-image:url(../images/slide_bg/slide1_bg.jpg);
 	background-position:center center;
-	background-attachment:fixed;
+	background-attachment:scroll;
 	background-size:cover;
 	background-repeat:no-repeat;
 	margin-bottom:45px;
@@ -1730,4 +1728,8 @@ img {max-width:100%;
 iframe {border:0;
 }
 .visible-desktop {display:none;
+}
+
+.anch {
+	padding: 50px;
 }
