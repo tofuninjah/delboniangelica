@@ -128,7 +128,7 @@
                 <div class="container">
                     <h1><b>About</b> <b class="color">Angelica</b> Delboni</h1>
                     <p>I have the gift of making people feel comfortable and I am very
-                        dependable.  Works as a model for more than six years in Brazil, and feel very proud of all the works that I have carried out.</p>
+                        dependable. I feel very proud of all the works that I have carried out.</p>
                 </div><!-- end .container -->
             </header>
             <!-- //section header -->
@@ -143,7 +143,16 @@
                             I am of Brazillian descent, and I love my family and friends! I love to laugh, and yes, I am a model but I also thoroughly enjoy a good meal.
                             I love my job, and I take it very seriously. If you would like to shoot together, please reach out to me! I love to meet new people and exchange inspirations.
                         </blockquote>
+
+                        <h3>Skills / Training</h3>
+                        <ul>
+                            <li>"On camera" - Second City Chicago</li>
+                            <li>Acting #1 and # 2 - Act One Studios Chicago</li>
+                            <li>TV Production & Directing - Columbia College </li>
+                        </ul>
+
                     </div>
+
                 </div>
                 <div class="divider"></div>
 
@@ -642,6 +651,13 @@
                             <div class="filter_img">
                                 <div class="hover_img">
                                     <a href="images/portfolio/full/48.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/48.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="filter_img">
+                                <div class="hover_img">
+                                    <a href="images/portfolio/full/54.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/54.jpg" alt="" /></a>
                                 </div>
                             </div>
                         </li>

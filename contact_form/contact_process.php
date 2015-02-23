@@ -11,7 +11,7 @@ $post = (!empty($_POST)) ? true : false;
 error_reporting (E_ALL ^ E_NOTICE);
 
 if ($post) {
-  $sendgrid = new SendGrid($user, $pass);  
+  $sendgrid = new SendGrid($user, $pass);
 
   include 'email_validation.php';
 
@@ -46,7 +46,7 @@ if ($post) {
   if(!$error) {
     $mail = new SendGrid\Mail();
 
-    $mail->addTo('brazilmodel@gmail.com')->
+    $mail->addTo('schwartzangelica@yahoo.com')->
         setFrom($email)->
         setFromName($name)->
         setSubject($subject)->
