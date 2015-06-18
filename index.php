@@ -438,13 +438,6 @@
                         <li>
                             <div class="filter_img">
                                 <div class="hover_img">
-                                    <a href="images/portfolio/full/41.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/41.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
                                     <a href="images/portfolio/full/42.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/42.jpg" alt="" /></a>
                                 </div>
                             </div>
@@ -548,13 +541,6 @@
                             <div class="filter_img">
                                 <div class="hover_img">
                                     <a href="images/portfolio/full/17.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/17.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/26.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/26.jpg" alt="" /></a>
                                 </div>
                             </div>
                         </li>
