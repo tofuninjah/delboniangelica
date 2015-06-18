@@ -647,6 +647,20 @@
                                 </div>
                             </div>
                         </li>
+                        <li>
+                            <div class="filter_img">
+                                <div class="hover_img">
+                                    <a href="images/portfolio/full/55.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/55.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="filter_img">
+                                <div class="hover_img">
+                                    <a href="images/portfolio/full/56.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/56.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
 
                     <script type="text/javascript" src="js/grid.js"></script>
