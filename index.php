@@ -12,16 +12,14 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="css/jplayer/jplayer.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <!-- // IE  // -->
-    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+    <link rel="shortcut icon" href="images/favicon.ico">>
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,700,300,600,400' rel='stylesheet' type='text/css'>
 
-    <!--<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>-->
-    <!--<script src="js/jquery-ui.min.js" type="text/javascript"></script>-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/sorting.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -287,292 +285,370 @@
                         <h2>Work / Profile</h2>
                     </div>
                     <!--//promo text-->
-                    <ul id="og-grid" class="og-grid">
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/3.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/3.jpg" alt="" /></a>
+                    <div id="owl-1" class="owl-carousel">
+                        <div class="owl-item-div">
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/3.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/3.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/10.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/10.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div class="owl-item-div">
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/10.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/10.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/11.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/11.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/11.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/11.jpg" alt="" /></a>
+                                    </div>
                                 </div>
+                            </li>
+                        </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/12.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/12.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/12.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/12.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/13.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/13.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/13.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/13.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/15.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/15.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/15.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/15.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/18.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/18.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/18.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/18.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/19.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/19.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/19.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/19.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/20.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/20.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/20.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/20.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/21.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/21.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/21.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/21.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/22.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/22.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/22.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/22.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/23.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/23.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/23.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/23.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/24.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/24.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/24.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/24.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/25.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/25.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/25.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/25.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/34.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/34.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/34.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/34.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/35.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/35.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/35.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/35.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/36.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/36.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/36.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/36.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/37.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/37.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/37.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/37.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/38.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/38.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/38.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/38.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/39.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/39.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/39.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/39.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/40.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/40.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/40.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/40.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/42.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/42.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/42.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/42.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/43.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/43.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/43.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/43.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/44.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/44.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/44.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/44.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/45.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/45.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/45.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/45.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/46.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/46.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/46.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/46.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/47.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/47.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/47.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/47.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                        </li>
 
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/49.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/49.jpg" alt="" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/49.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/49.jpg" alt="" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/50.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/50.jpg" alt="" rel="prettyPhoto" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/50.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/50.jpg" alt="" rel="prettyPhoto" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/51.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/51.jpg" alt="" rel="prettyPhoto" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/51.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/51.jpg" alt="" rel="prettyPhoto" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/52.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/52.jpg" alt="" rel="prettyPhoto" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/52.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/52.jpg" alt="" rel="prettyPhoto" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/53.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/53.jpg" alt="" rel="prettyPhoto" /></a>
-                                </div>
+                            <div>
+                                <li>
+                                    <div class="filter_img">
+                                        <div class="hover_img">
+                                            <a href="images/portfolio/full/53.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/53.jpg" alt="" rel="prettyPhoto" /></a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                    </ul>
-
+                    </div>
                     <!--// Head Shots -->
                     <a name="headshots" class="anch"></a>
                     <!--promo text-->
                     <div class="promo_text_block">
                         <h2>Head Shots</h2>
                     </div>
+
                     <!--//promo text-->
-                    <ul id="og-grid" class="og-grid">
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/6.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/6.jpg" alt="" /></a>
+                    <div id="owl-2" class="owl-carousel">
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/6.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/6.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/8.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/8.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/8.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/8.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/17.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/17.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/17.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/17.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/27.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/27.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/27.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/27.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/28.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/28.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/28.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/28.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/30.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/30.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                       <div>
+                            <li>
+                               <div class="filter_img">
+                                   <div class="hover_img">
+                                       <a href="images/portfolio/full/30.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/30.jpg" alt="" /></a>
+                                   </div>
+                               </div>
+                           </li>
+                       </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/33.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/33.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/33.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/33.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </div>
+                    </div>
                     <!--// Body Shots -->
 
                     <a name="bodyshots" class="anch"></a>
@@ -581,88 +657,109 @@
                         <h2>Body Shots</h2>
                     </div>
                     <!--//promo text-->
-                    <ul id="og-grid" class="og-grid">
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/4.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/4.jpg" alt="" /></a>
+                    <div id="owl-3" class="owl-carousel">
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/4.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/4.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
 
-                                    <a href="images/portfolio/full/5.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/5.jpg" alt="" /></a>
+                                        <a href="images/portfolio/full/5.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/5.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
 
-                                    <a href="images/portfolio/full/14.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/14.jpg" alt="" /></a>
+                                        <a href="images/portfolio/full/14.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/14.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/16.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/16.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/16.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/16.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/29.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/29.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/29.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/29.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/31.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/31.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/31.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/31.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/32.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/32.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/32.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/32.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/48.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/48.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/48.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/48.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/54.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/54.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/54.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/54.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/55.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/55.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/55.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/55.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="filter_img">
-                                <div class="hover_img">
-                                    <a href="images/portfolio/full/56.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/56.jpg" alt="" /></a>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/56.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/56.jpg" alt="" /></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
-
+                            </li>
+                        </div>
+                    </div>
                     <script type="text/javascript" src="js/grid.js"></script>
                     <script type="text/javascript">
                         jQuery(window).load(function(){
@@ -736,6 +833,84 @@
     </div><!-- end #page -->
     <script type="text/javascript" charset="utf-8">
         $(document).ready(function(){
+            var owl_opts = {
+                // Most important owl features
+                items : 3,
+                itemsCustom : false,
+                singleItem : false,
+                itemsScaleUp : false,
+
+                //Basic Speeds
+                slideSpeed : 200,
+                paginationSpeed : 800,
+                rewindSpeed : 1000,
+
+                //Autoplay
+                autoPlay : false,
+                stopOnHover : false,
+
+                // Navigation
+                navigation : true,
+                navigationText : ["prev","next"],
+                rewindNav : true,
+                scrollPerPage : false,
+
+                //Pagination
+                pagination : true,
+                paginationNumbers: false,
+
+                // Responsive
+                responsive: true,
+                responsiveRefreshRate : 200,
+                responsiveBaseWidth: window,
+
+                // CSS Styles
+                baseClass : "owl-carousel",
+                theme : "owl-theme",
+
+                //Lazy load
+                lazyLoad : false,
+                lazyFollow : true,
+                lazyEffect : "fade",
+
+                //Auto height
+                autoHeight : false,
+
+                //Auto Width
+                autoWidth : true,
+
+                //JSON
+                jsonPath : false,
+                jsonSuccess : false,
+
+                //Mouse Events
+                dragBeforeAnimFinish : true,
+                mouseDrag : true,
+                touchDrag : true,
+
+                //Transitions
+                transitionStyle : false,
+
+                // Other
+                addClassActive : false,
+
+                //Callbacks
+                beforeUpdate : false,
+                afterUpdate : false,
+                beforeInit: false,
+                afterInit: false,
+                beforeMove: false,
+                afterMove: false,
+                afterAction: false,
+                startDragging : false,
+                afterLazyLoad : false
+
+            };
+
+            $("#owl-1").owlCarousel(owl_opts);
+            $("#owl-2").owlCarousel(owl_opts);
+            $("#owl-3").owlCarousel(owl_opts);
+
             $("a[rel^='prettyPhoto']").prettyPhoto({
                 animation_speed: 'fast', /* fast/slow/normal */
                 slideshow: 5000, /* false OR interval time in ms */
@@ -758,6 +933,7 @@
                 changepicturecallback: function(){}, /* Called everytime an item is shown/changed */
                 callback: function(){}, /* Called when prettyPhoto is closed */
                 social_tools: false /* html or false to disable */
+
             });
         });
     </script>
