@@ -147,6 +147,8 @@
                             <li>"On camera" - Second City Chicago</li>
                             <li>Acting #1 and # 2 - Act One Studios Chicago</li>
                             <li>TV Production & Directing - Columbia College </li>
+                            <li>TV Host - Carolyne Berry - Los Angeles </li>
+                            <li>Study Scene - Michelle Danner - Santa Monica </li>
                         </ul>
 
                     </div>
