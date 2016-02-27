@@ -147,9 +147,11 @@
                         <ul>
                             <li>"On camera" - Second City Chicago</li>
                             <li>Acting #1 and # 2 - Act One Studios Chicago</li>
-                            <li>TV Production & Directing - Columbia College </li>
+                            <li>BA in Production and Direction for television - Columbia College </li>
                             <li>TV Host - Carolyne Berry - Los Angeles </li>
                             <li>Study Scene - Michelle Danner - Santa Monica </li>
+                            <li>Terry Berland - Commercial technique - Los Angeles</li>
+                            <li>Voice & Speech - Michelle Danner</li>
                         </ul>
 
                     </div>
@@ -198,6 +200,8 @@
                                     <li>Bally's</li>
                                     <li>Ducati</li>
                                     <li>Super Challenge</li>
+                                    <li>Hawaiian Tropic</li>
+                                    <li>Cricket</li>
                                 </ul>
                             </a>
                         </div>
@@ -651,8 +655,26 @@
                                 </div>
                             </li>
                         </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/57.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/57.jpg" alt="" /></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/61.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/61.jpg" alt="" /></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
                     </div>
-                    <!--// Body Shots -->
+                    <!--// Head Shots -->
 
                     <a name="bodyshots" class="anch"></a>
                     <!--promo text-->
@@ -758,6 +780,33 @@
                                 <div class="filter_img">
                                     <div class="hover_img">
                                         <a href="images/portfolio/full/56.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/56.jpg" alt="" /></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/58.png" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/58.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/59.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/59.jpg" alt="" /></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <div class="filter_img">
+                                    <div class="hover_img">
+                                        <a href="images/portfolio/full/60.jpg" rel="prettyPhoto[pp_gal]"><img src="images/portfolio/60.jpg" alt="" /></a>
                                     </div>
                                 </div>
                             </li>
