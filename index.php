@@ -58,6 +58,7 @@
         <!-- header section -->
         <section id="top">
             <header>
+                
                 <!-- logo -->
                 <div id="logo">
                     <a href="index.php#top"><img src="images/logo.png" width="229" height="34" alt="" /></a>
